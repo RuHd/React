@@ -10,6 +10,7 @@ import React from 'react'
 function Main() {
     return (
         <main>
+            tetrwtersefe
             <section className="main-section">
                 <div className="main-subsection">
                     <div>
