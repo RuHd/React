@@ -1,0 +1,65 @@
+.logoname {
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+}
+.upMenu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    /* height: 50px; */
+    background-color: #F200FF;
+}
+  
+.wordColor {
+    color: var(--textColor);
+    font-family: 'Playfair Display SC', serif;
+}
+
+li {
+    position: relative;
+    height: 100%;
+}
+
+.categories-dropmenu {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--textColor);
+    color: var(--primaryColor);
+    font-weight: bold;
+    /* z-index: -2; */
+    transition: .3s;
+}
+.hidden {
+    opacity: 0;
+}
+.categories-dropmenu a:hover {
+    cursor: pointer;
+    background-color: rgb(87, 219, 146);
+    color: var(--textColor);
+}
+
+.options-menu {
+    display: inline-block;
+    color: var(--textColor);
+    font-size: 1.5em;
+    transition: .3s;
+    height: 100%;
+    padding: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: var(--textColor);
+    color: var(--primaryColor);
+}
+
+a:hover .categories-dropmenu{
+    animation: dropmenu .5s both;
+}
+

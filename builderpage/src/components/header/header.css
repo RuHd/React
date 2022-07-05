@@ -1,0 +1,116 @@
+header{
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+}
+
+
+#telnum-socialmedia-top{
+    display: flex;
+    padding: 10px 15px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #1C1C1C;
+    color: white;
+    font-size: .8em;
+
+}
+
+.socialmedias {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+.socialmedias a {
+    transition: .5s;
+}
+
+.socialmedias a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#logoTitle-contact-menu-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffff;
+    height: 140px;
+}
+
+#logoTitle-contact-menu-bottom>div{
+    width: 85%;
+}
+
+#logoTitle-contact{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.logoTitle {
+    display: flex;
+}
+
+.logoTitle-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoTitle-section p {
+    font-size: .8em;
+    color: rgb(148, 148, 148);
+    
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+}
+
+.contact i { 
+    height: 100%;
+    color: #FFB600;
+    align-self: center;
+    font-size: 2em;
+
+}
+
+.contact-sections {
+    display: flex;
+    width: 200px;
+    gap: 20px;
+}
+
+.contact-sections span {
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    background-color: #FFB600;
+
+}
+
+.menu a {
+    
+    padding: 10px 20px;
+    height: 100%;
+    transition: .3s;
+}
+
+.menu a:hover {
+    cursor:pointer;
+    background-color: #1C1C1C;
+}

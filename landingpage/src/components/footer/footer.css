@@ -1,0 +1,33 @@
+footer {
+   
+    display: flex;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+.foot-menu {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot-menu li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+   
+}
+
+.foot-menu  p {
+    font-size: 13px;
+    width: 100%;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.582);
+    letter-spacing: 1px;
+}

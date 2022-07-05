@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: none;
+  box-sizing: border-box;
+  Color: white;
+
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+
+}
+
+main {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+  width: 100%;
+  height: 90vh;
+}
+
+.search-bar {
+  position: relative;
+  
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 3px;
+}
+
+input {
+  width: 500px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 20px;
+  color: black;
+  border: none;
+}
+
+.mic-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 30px;
+  bottom: 7px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.btn-section {
+  padding: 10px;
+  border-radius: 9px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-section button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.btn-section:hover {
+  cursor: pointer;
+  background-color: rgb(37, 37, 37);
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button span {
+  text-align: center;
+  color: black;
+  font-size: 2em;
+}
+
+.custom-bar {
+  font-size: .8em;
+  text-align: center;
+  width: 180px;
+  height: 30px;
+  position: fixed;
+  bottom: 16px;
+  right: 20px;
+  color: #1a73e8;
+  background-color: white;
+  padding: 5px 0;
+  border-radius: 20px;
+}
+
+.custom-bar:hover{
+  cursor: pointer;
+}
+
+
+
+ 

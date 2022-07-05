@@ -1,0 +1,52 @@
+form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+
+}
+
+form::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 12, 12, 0.7);
+    z-index: -1;
+
+}
+
+form h2 {
+    color: #FFB600;
+}
+
+form p {
+    text-align: center;
+    color: white;
+    font-size: .9em;
+}
+
+form input {
+    padding: 5px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.message {
+    height: 80px;
+}
+
+form button {
+    background-color: #FFB600;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+form button:hover{
+    cursor: pointer;
+}

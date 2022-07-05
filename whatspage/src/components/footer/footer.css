@@ -1,0 +1,43 @@
+footer {
+    width: 100%;
+    height: 434px;
+
+}
+
+.bottom-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #273443;
+    color: white;
+    height: 368px;
+}
+
+.bottom-menu div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.bottom-menu h4{
+    margin-bottom: 30px;
+}
+
+.bottom-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+.copyright-bottom{
+    display: flex;
+    height: 67px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1C1E21;
+    color: white;
+    font-weight: bold;
+}
