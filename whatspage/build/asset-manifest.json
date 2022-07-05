@@ -1,19 +1,19 @@
 {
-  "files": {
-    "main.css": "/static/css/main.2813f25e.css",
-    "main.js": "/static/js/main.c84e1cd5.js",
-    "static/js/787.bd48acb3.chunk.js": "/static/js/787.bd48acb3.chunk.js",
-    "static/media/phoneleftblock.png": "/static/media/phoneleftblock.64b129b3d9be61d8b756.png",
-    "static/media/178505650_460141378430025__n.png": "/static/media/178505650_460141378430025_2455877548463147186_n.346c0cff0aab9566e3b9.png",
-    "static/media/helloIMG.JPG": "/static/media/helloIMG.f942ad0b6f5b4c25bda4.JPG",
-    "static/media/whatslogo.svg": "/static/media/whatslogo.85f11eae21bffe7fcdfd1bdfb9d65bfe.svg",
-    "index.html": "/index.html",
-    "main.2813f25e.css.map": "/static/css/main.2813f25e.css.map",
-    "main.c84e1cd5.js.map": "/static/js/main.c84e1cd5.js.map",
-    "787.bd48acb3.chunk.js.map": "/static/js/787.bd48acb3.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.2813f25e.css",
-    "static/js/main.c84e1cd5.js"
-  ]
+  "main.css": "/static/css/main.2260ed9d.chunk.css",
+  "main.js": "/static/js/main.4a036be0.chunk.js",
+  "main.js.map": "/static/js/main.4a036be0.chunk.js.map",
+  "static/js/1.98639319.chunk.js": "/static/js/1.98639319.chunk.js",
+  "static/js/1.98639319.chunk.js.map": "/static/js/1.98639319.chunk.js.map",
+  "static/js/2.d075c323.chunk.js": "/static/js/2.d075c323.chunk.js",
+  "static/js/2.d075c323.chunk.js.map": "/static/js/2.d075c323.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.b29c9e15.js",
+  "runtime~main.js.map": "/static/js/runtime~main.b29c9e15.js.map",
+  "static/media/whatslogo.svg": "/static/media/whatslogo.d08b1ebf.svg",
+  "static/media/178505650_460141378430025_2455877548463147186_n.png": "/static/media/178505650_460141378430025_2455877548463147186_n.3de68dff.png",
+  "static/media/phoneleftblock.png": "/static/media/phoneleftblock.06fb5c35.png",
+  "static/media/helloIMG.JPG": "/static/media/helloIMG.fe024410.JPG",
+  "static/css/main.2260ed9d.chunk.css.map": "/static/css/main.2260ed9d.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.c5525f0a03d4f871d62edfc13d6b5588.js": "/precache-manifest.c5525f0a03d4f871d62edfc13d6b5588.js",
+  "service-worker.js": "/service-worker.js"
 }

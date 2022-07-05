@@ -3,11 +3,12 @@ import Footer from '../../footer/footer'
 import cellFone from './178505650_460141378430025_2455877548463147186_n.png'
 import phoneBlock from './phoneleftblock.png'
 import hello from './helloIMG.JPG'
+import React from 'react'
 
 
 
 function Main() {
-    return(
+    return (
         <main>
             <section className="main-section">
                 <div className="main-subsection">

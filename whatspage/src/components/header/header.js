@@ -1,5 +1,6 @@
 import './header.css'
 import whatslogo from './whatslogo.svg'
+import React from 'react'
 
 function Header() {
     return (
@@ -8,7 +9,7 @@ function Header() {
                 <img alt="whatsapp logo" src={whatslogo}></img>
             </section>
             <ul>
-                <li>WHATSAPP WEB sdfsdf</li>
+                <li>WHATSAPP WEB</li>
                 <li>RECURSOS</li>
                 <li>DOWNLOAD</li>
                 <li>SEGURANÇA</li>
