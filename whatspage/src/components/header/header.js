@@ -8,7 +8,7 @@ function Header() {
                 <img alt="whatsapp logo" src={whatslogo}></img>
             </section>
             <ul>
-                <li>WHATSAPP WEB </li>
+                <li>WHATSAPP WEB sdfsdf</li>
                 <li>RECURSOS</li>
                 <li>DOWNLOAD</li>
                 <li>SEGURANÇA</li>
