@@ -1,0 +1,17 @@
+main {
+    margin-left: 230px;
+    margin-top: 81px;
+    padding: 10px;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.videoGrid {
+    display: grid;
+    grid-template-columns: repeat(5,170px);
+    grid-template-rows: 180px;
+    column-gap: 0px;
+    gap: 20px;
+    
+}

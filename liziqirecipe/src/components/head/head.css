@@ -1,0 +1,71 @@
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+    border-bottom: 1px solid grey;
+    background-color: #fff;
+    z-index: 3;
+}
+
+#logoTitle {
+    position: relative;
+    display: flex;
+    gap: 2px;
+    font-family: "Open Sans" sans-serif;
+}
+
+.Liziqi {
+    color: #21DEEF;
+    font-size: 36px;
+}
+
+.Recipe {
+    color: #3F0203;
+    line-height: 200%;
+    font-weight: bolder;
+}
+
+
+.Cooking {
+    position: absolute;
+    bottom: 0px;
+    right: 26px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#searchBar input {
+    width: 632px;
+    height: 34px;
+    padding: 10px;
+    border: .5px solid rgb(207, 204, 204);
+    border-radius: 3px;
+}
+
+#UploadLogin {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+#UploadLogin a {
+    text-align: center;
+    width: 80px;
+    padding: 10px 0px;
+}
+
+.Login {
+    background-color: #21DEEF;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.Upload {
+    background-color: #F9F9F9;
+    color: rgb(77, 76, 76);
+}

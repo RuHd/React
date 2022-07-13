@@ -1,0 +1,28 @@
+#sidebar {
+   
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272C2E;
+    width: 230px;
+    float: left;
+    height: 100%;
+    color: rgb(202, 202, 202);
+}
+
+#sidebar a {
+    letter-spacing: 1px;
+    font-size: .9em;
+    padding: 10px 5px;
+    transition: .3s;
+    width: 100%;
+    text-align: center;
+}
+
+#sidebar>a:hover {
+    cursor: pointer;
+    background-color: black;
+    color: #14E3E1;
+}
