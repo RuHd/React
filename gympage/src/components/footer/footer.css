@@ -4,6 +4,7 @@ footer {
     justify-content: space-between;
     width: 100%;
     height: 350px; 
+    
 }
 
 #block-section{
@@ -11,29 +12,94 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .footer-blocks {
-    padding: 10px 15px;
     display: flex;
+    position: relative;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    background-color: #EA4C23;
     color: aliceblue;
     height: 200px;
     width: 300px;
+    transition: .5s;
+    overflow: hidden;
 }
 
+.footer-blocks::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../main/gymimg.jpg');
+    background-size: cover;
+    background-position: 100%;
+    z-index: -2;
+}
+
+.footer-blocks::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    filter: opacity(.6);
+    z-index: -1;
+} 
+
 .footer-blocks p {
+    opacity: 0;
     text-align: center;
     font-size: .9em;
+    height: 0%;
+    transition:.5s;
+}
+
+.footer-blocks:hover p {
+    padding: 10px;
+    height: 85%;
+    opacity: 1;
+    background-color: #EA4C23;
+}
+
+.footer-blocks h3 {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-color: #EA4C23;
 }
 
 #bottom-footer {
+    color: #EA4C23;
+    font-weight: bold;
+    border-top: 1px solid #EA4C23;
     padding: 0 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+}
+
+#bottom-footer section {
+    display: flex;
     justify-content: space-between;
-    height: 60px;
+    width: 200px;
+}
+
+
+@media screen and (max-width: 900px) {
+    #block-section {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+
+    }
+
+    #bottom-footer {
+        padding: 5px;
+    }
+
 }

@@ -23,6 +23,7 @@ main section {
     width: 450px;
     top: 60px;
     left: 120px;
+    
 }
 
 #locations-plans {
@@ -85,4 +86,11 @@ main::after {
     filter: opacity(.99);
     filter: blur(1px);
     z-index: -2;
+}
+
+@media screen and (max-width: 550px) {
+    #text-main {
+        font-size: 1.5em;
+        width: 300px;
+    }
 }

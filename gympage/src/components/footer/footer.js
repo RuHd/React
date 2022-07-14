@@ -1,6 +1,4 @@
 import './footer.css'
-import Logo from '../logo/logo'
-
 function Footer() {
     return (
         <footer>
@@ -47,11 +45,10 @@ function Footer() {
             </div>
             <div id="bottom-footer">
                 <section>
-                    <span></span>
-                    <span>Trade Rights Reserved</span>
+                    <i class="fa-solid fa-registered"></i>
+                    <span>Trademark Reserved</span>
                     <span>2022</span>
                 </section>
-                <Logo/>
             </div>
             
         </footer>
