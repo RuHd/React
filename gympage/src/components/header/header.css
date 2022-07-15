@@ -4,6 +4,7 @@
 }
 
 header {
+    position: relative;
     height: 80px;
     padding: 10px 15px;
     display: flex;
@@ -13,19 +14,30 @@ header {
     
 }
 
+button {
+    position: absolute;
+    display: none;
+}
+
+.hamburguer {
+    display: none;
+}
+
 
 
 #menu {
+
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    width: 300px;
+    align-items: center;
+    width: 250px;
 }
 
 #menu a {
     position: relative;
     font-size: 1.2em;
     transition:.3s;
+    
 }
 
 #menu a::after {
@@ -46,4 +58,55 @@ header {
 
 #menu a:hover::after {
     width: 100%;
+}
+
+.hamburguer:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+
+    #menu {
+        padding: 3px 0px;
+        position: absolute;
+        bottom: -20px;
+        display: flex;
+        background-color: #EA4C23;
+        border-radius: 5px;
+    }
+
+    #menu a {
+        z-index: 1;
+
+    }
+
+    #menu a:hover {
+        color: #FEFEFE;
+    }
+
+    #menu a::after {
+        background-color: #FEFEFE;
+    }
+    
+    header {
+        justify-content: center;
+        align-items: center;
+        background-color: #EA4C23;
+    }
+
+    button {
+        background-color: #EA4C23;
+        font-size: 1.2em;
+        color: #FEFEFE;
+        padding: 5px;
+        display: none;
+        bottom: -16px;
+    }
+
+    .hamburguer {
+        display: block;
+        background-color: transparent;
+        color: #FEFEFE;
+        font-size: 1.5em;
+    }
 }

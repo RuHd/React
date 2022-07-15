@@ -92,5 +92,6 @@ main::after {
     #text-main {
         font-size: 1.5em;
         width: 300px;
+        left: 96px;
     }
 }

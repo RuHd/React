@@ -10,6 +10,7 @@ function Header() {
                 <a>Services</a>
                 <a>Contact</a>
             </div>
+            <button>Menu</button>
         </header>
     )
 }

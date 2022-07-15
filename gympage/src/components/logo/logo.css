@@ -2,6 +2,10 @@
     position: relative;
 }
 
+#logo * {
+    transition: color .3s;
+}
+
 #logo i {
     position: absolute;
     top: -17px;
@@ -17,4 +21,25 @@
 
 h1 {
     font-size: 2em;
+}
+
+@media screen and (max-width: 550px) {
+    
+    #menu {
+        color: #fff;
+    }
+
+    #logo i {
+        color: white;
+        top: -18px;
+    }
+
+    h1{
+        color: #fff;
+    }
+
+    #logo h1 span {
+        color: white;
+    }
+
 }
